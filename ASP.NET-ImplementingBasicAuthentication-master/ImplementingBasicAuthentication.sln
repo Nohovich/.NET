@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementingBasicAuthentication", "ImplementingBasicAuthentication\ImplementingBasicAuthentication.csproj", "{5D324EC0-AEFB-4591-AE0A-211FCFA25339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeDB", "EmployeeDB\EmployeeDB.csproj", "{C71D69B4-E322-456D-AEF9-F48644FCDB6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D324EC0-AEFB-4591-AE0A-211FCFA25339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D324EC0-AEFB-4591-AE0A-211FCFA25339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D324EC0-AEFB-4591-AE0A-211FCFA25339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D324EC0-AEFB-4591-AE0A-211FCFA25339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C71D69B4-E322-456D-AEF9-F48644FCDB6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C71D69B4-E322-456D-AEF9-F48644FCDB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C71D69B4-E322-456D-AEF9-F48644FCDB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C71D69B4-E322-456D-AEF9-F48644FCDB6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E6E5E2F-34F2-4ECD-A037-B969DF731298}
+	EndGlobalSection
+EndGlobal

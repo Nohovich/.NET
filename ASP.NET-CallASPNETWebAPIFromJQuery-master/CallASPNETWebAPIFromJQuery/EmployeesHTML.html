@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="Scripts/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        // when this docoment(HTML part) is ready run this code(javascript/jquery)
+        // anonymous function
+        $(document).ready(function () {
+
+            // using jquery we are saving the data from the HTML ulEmployees in the following var
+            var ulEmployees = $('#ulEmployees');
+            // using jquery when the HTML button(btn) is pressed run the following code 
+            // anonymous function
+            $('#btn').click(function () {
+                // ajax request 
+                $.ajax({
+                    // type of the request
+                    type: 'GET',
+                    // the controller url
+                    url: "api/employees/",
+                    // the typeof data we are using
+                    dataType: 'json',
+                    // if our request was successful run the following code 
+                    // the data is the anser for our get
+                    success: function (data) {
+                        // empty the unordered list
+                        ulEmployees.empty();
+                        // jquery for each 
+                        // loping through the data
+                        // function (index, object)
+                        $.each(data, function (index, val) {
+                            // seting the data we want to pass to the unordered list
+                            var fullName = val.FirstName + ' ' + val.LastName;
+                            // adding data to the unordered list
+                            ulEmployees.append('<li>' + fullName + '</li>');
+                        });
+                    }
+                });
+            });
+
+             // using jquery when the HTML button(btnClear) is pressed run the following code 
+            // anonymous function
+            $('#btnClear').click(function () {
+                // empting the unordered list
+                ulEmployees.empty();
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- HTML part -->
+    <div>
+        <!-- button -->
+        <input id="btn" type="button" value="Get All Employees" />
+        <!-- button -->
+        <input id="btnClear" type="button" value="Clear" />
+        <!-- unordered list -->
+        <ul id="ulEmployees" />
+    </div>
+</body>
+</html>

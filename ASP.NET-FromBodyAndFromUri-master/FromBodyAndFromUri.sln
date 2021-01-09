@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromBodyAndFromUri", "FromBodyAndFromUri\FromBodyAndFromUri.csproj", "{59AC124C-6169-4ECC-88BF-D821557BE8F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeDB", "EmployeeDB\EmployeeDB.csproj", "{BC652E04-9AA0-44F8-8FF7-E00F94778BCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59AC124C-6169-4ECC-88BF-D821557BE8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59AC124C-6169-4ECC-88BF-D821557BE8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59AC124C-6169-4ECC-88BF-D821557BE8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59AC124C-6169-4ECC-88BF-D821557BE8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC652E04-9AA0-44F8-8FF7-E00F94778BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC652E04-9AA0-44F8-8FF7-E00F94778BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC652E04-9AA0-44F8-8FF7-E00F94778BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC652E04-9AA0-44F8-8FF7-E00F94778BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBD1EDD0-D566-47E3-975B-511E876F1430}
+	EndGlobalSection
+EndGlobal
